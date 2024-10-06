@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: rgb(0,3,15,255); /* Fundo preto */
+  margin: 0; /* Remove margens */
+  padding: 0; /* Remove preenchimento */
+}
+
+html, body {
+  height: 100%; /* Faz com que html e body ocupem 100% da altura da tela */
+  margin: 0; /* Remove margens padrão */
+}
+
+#root {
+  display: flex; /* Define o contêiner como um flex container */
+  flex-direction: column; /* Organiza os filhos em uma coluna */
+  min-height: 100vh; /* Faz com que a altura mínima do root seja 100% da altura da tela */
+}
+
+main {
+  flex: 1; /* Faz com que o main ocupe o espaço restante entre header e footer */
+}
+
