@@ -10,7 +10,7 @@ function Footer() {
           <a href="https://github.com/eurick-en" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <FaGithub size={30} />
           </a>
-          <a href="https://www.linkedin.com/in/henrique-borges-de-castro-sanches-2391b2264/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+          <a href="https://www.linkedin.com/in/eurick-en/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
             <FaLinkedin size={30} />
           </a>
           <a href="https://www.instagram.com/eur1ck_/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
